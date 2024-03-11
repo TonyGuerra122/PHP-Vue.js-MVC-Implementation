@@ -1,0 +1,22 @@
+{
+  "name": "mvc/php",
+  "autoload": {
+    "psr-4": {
+      "Source\\": "src/",
+      "App\\": "src/app/"
+    },
+    "files": [
+      "src/core/consts.php"
+    ]
+  },
+  "require": {
+    "slim/slim": "^4.13",
+    "php-di/php-di": "^7.0",
+    "friendsofphp/proxy-manager-lts": "^1.0",
+    "slim/psr7": "^1.6",
+    "slim/twig-view": "^3.3",
+    "php-di/slim-bridge": "^3.4",
+    "doctrine/annotations": "^2.0",
+    "laminas/laminas-stdlib": "^3.19"
+  }
+}
